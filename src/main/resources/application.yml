@@ -1,0 +1,28 @@
+server:
+  port: 8080
+
+file:
+  delay:
+    location: F:\test\zuhe\Inter-Domain.json
+  ac:
+    location: F:\test\Inter-Domain.json
+  node:
+    location: F:\test\Inter-Domain.json
+
+route:
+    delay: minimum-delay
+    ac: ac
+    node: node
+#logging:
+  #config: config/suanlu-logback.xml
+
+url:
+  a: http://localhost:8090/cacuRoute/cacuRouteList
+  b: http://localhost:8091/cacuRoute/cacuRouteList
+  c: http://localhost:8092/cacuRoute/cacuRouteList
+
+area:
+  srcAreaId: cywa
+  dstAreaId: cywb
+
+
